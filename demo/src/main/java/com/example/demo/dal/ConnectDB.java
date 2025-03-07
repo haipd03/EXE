@@ -15,7 +15,7 @@ public class ConnectDB {
     public String testConnection() {
         try {
             jdbcTemplate.execute("SELECT 1");
-            return "Kết nối SQL Server thành công!";
+            return "Kết nối SQL Server thành công! Son ngoo";
         } catch (Exception e) {
             return "Kết nối thất bại: " + e.getMessage();
         }
